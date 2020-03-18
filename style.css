@@ -31,3 +31,92 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.polozky {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.polozky li {
+    flex-basis: 150px;
+}
+
+.appka {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.vizual {
+    background-image: url(images/pozadi.jpg);
+    background-size: cover;
+    position: relative;
+    height: 450px;
+    padding: 30px;
+}
+
+.vizual h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.vizual p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.fialovy {
+    background-color: #48418e;
+    margin-right: 20px;
+}
+
+.vizual img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ikony {
+    display: flex;
+    padding: 30px 20px;
+}
+
+.ikony div {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.ikony img {
+    width: 80px;
+}
+
+.ikony h2 {
+    color: #48418e;
+}
+
+.paticka {
+    text-align: center;
+    background-color: #48418e;
+    color: white;
+    padding: 10px 0;
+}
+
+.paticka p {
+    margin: 0;
+}
